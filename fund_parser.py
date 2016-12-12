@@ -27,6 +27,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
     for line in search_content.findAll(name='tr'):
         if line.findChild(name='td', text='13F-HR'):
             file_urls.append(line.findNext(name='a').attrs['href'])
+            # If we are only looking for the most recent 13F-HR, exit the loop
             if not get_all:
                 break
     # Replace '-index.htm' at the end of the urls with '.txt' to immediately get txt file
@@ -38,6 +39,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
     bottom_headers = ('NAME OF ISSUER\t\t\tTITLE OF CLASS\t\tCUSIP\t\t(x$1000)\tPRN AMOUNT\tPRN\t'
                       'CALL\tDISCRETION\tMANAGERS\tSOLE\t\tSHARED\t\tNONE\n')
     for url in file_urls:
+        # Get file contet. ACCEPTANCE-DATETIME is used to ensure unicity of filenames
         file_content = requests.get('https://www.sec.gov{0}'.format(url)).content
         file_date = file_content.split('<ACCEPTANCE-DATETIME>')[1][:8]
         with open('{0}-{1}.txt'.format(cik_or_ticker, file_date), 'w') as output_file:
@@ -66,6 +68,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                         fields['other_managers'] = '\t'
                     else:
                         fields['other_managers'] = item.otherManagers.text + '\t'
+                    # Pad with tabs as necessary
                     if len(fields['name']) < 32:
                         remaining = 32 - len(fields['name'])
                         if remaining / 8 > 0:
@@ -120,6 +123,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                         )
                     )
             else:
+                # Non-XML files have a well-organized table in them already
                 file_content = file_content.split('<PAGE>')[-1]
                 if '<Caption>' in file_content:
                     file_content = file_content.split('<Caption>')[1]
