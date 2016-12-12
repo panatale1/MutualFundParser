@@ -72,8 +72,11 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                                 fields['name'] += '\t'
                     if len(fields['title']) < 24:
                         remaining = 24 - len(fields['title'])
-                        if remaining / 8.0 > 1:
+                        if remaining / 8.0 > 1 and not remaining % 8 == 0:
                             for i in range(remaining / 8):
+                                fields['title'] += '\t'
+                        else:
+                            for i in range((remaining / 8) - 1):
                                 fields['title'] += '\t'
                     output_file.write(
                         '{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}{7}\t{8}{9}\t{10}\t{11}\n'.format(
