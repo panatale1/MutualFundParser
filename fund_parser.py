@@ -6,6 +6,8 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
     """This method takes in a string CIK or ticker, obtains data,
        and parses into a tab-delimited file
 
+       Written by: Peter Natale
+
        params:
        cik_or_ticker: The CIK or ticker to search for, must be a string
        get_all: A boolean value. If not provided, only the latest 13F record
