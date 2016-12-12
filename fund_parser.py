@@ -35,7 +35,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
     # Retrieve files and parse
     top_headers = '\t\t\t\t\t\t\t\t\tValue\t\tSHRS OR\t\tSH/\tPUT/\tINVESTMENT\tOTHER\t\tVOTING AUTHORITY\n'
     bottom_headers = ('NAME OF ISSUER\t\t\tTITLE OF CLASS\t\tCUSIP\t\t(x$1000)\tPRN AMOUNT\tPRN\tCALL'
-                      '\tDISCRETION\tMANAGERS\tSOLE\tSHARED\tNONE\n')
+                      '\tDISCRETION\tMANAGERS\tSOLE\t\tSHARED\t\tNONE\n')
     for url in file_urls:
         file_content = requests.get('https://www.sec.gov{0}'.format(url)).content
         file_date = file_content.split('<ACCEPTANCE-DATETIME>')[1][:8]
@@ -94,6 +94,22 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                         else:
                             for i in range((remaining / 8) - 1):
                                 fields['shrs_or_prn_amt'] += '\t'
+                    if len(fields['sole']) < 16:
+                        remaining = 16 - len(fields['sole'])
+                        if remaining / 8.0 > 1 and not remaining % 8 == 0:
+                            for i in range(remaining / 8):
+                                fields['sole'] += '\t'
+                        else:
+                            for i in range((remaining / 8) - 1):
+                                fields['sole'] += '\t'
+                    if len(fields['shared']) < 16:
+                        remaining = 16 - len(fields['shared'])
+                        if remaining / 8.0 > 1 and not remaining % 8 == 0:
+                            for i in range(remaining / 8):
+                                fields['shared'] += '\t'
+                        else:
+                            for i in range((remaining / 8) - 1):
+                                fields['shared'] += '\t'
                     output_file.write(
                         '{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}{7}\t\t\t{8}{9}\t{10}\t{11}\n'.format(
                             fields['name'], fields['title'], fields['cusip'], fields['value'],
