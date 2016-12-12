@@ -1,0 +1,43 @@
+
+                                                                                                         VOTING AUTHORITY
+                                                     VALUE    SHRS OR   SH/  PUT/ INVESTMENT  OTHER   ----------------------
+NAME OF ISSUER            TITLE OF CLASS   CUSIP   (x$1000)  PRN AMOUNT PRN  CALL DISCRETION MANAGERS    SOLE    SHARED NONE
+- ------------------------- -------------- --------- --------- ---------- ---- ---- ---------- -------- ---------- ------ ----
+<S>                       <C>            <C>       <C>       <C>         <C> <C>     <C>     <C>      <C>        <C>    <C>
+AMERICA MOVIL SAB DE CV   SPON ADR L SHS 02364W105   106,659  1,999,984  SH          SOLE              1,999,984
+AUTONATION INC            COM            05329W102   250,916 10,792,100  SH          SOLE             10,792,100
+BERSHIRE HATHAWAY INC DEL CL B NEW       084670702 7,594,989 91,860,055  SH          SOLE             91,860,055
+BP PLC                    SPONSORED ADR  055622104   293,666  7,133,000  SH          SOLE              7,133,000
+CABOT OIL & GAS CORP      COM            127097103    23,352    775,550  SH          SOLE                775,550
+CANADIAN NATL RY CO       COM            136375102   548,231  8,563,437  SH          SOLE              8,563,437
+CATERPILLAR INC DEL       COM            149123101   754,573  9,590,400  SH          SOLE              9,590,400
+COCA COLA CO              COM            191216100   595,851 10,182,000  SH          SOLE             10,182,000
+COCA COLA FEMSA
+ S A B DE C V             SPON ADR REP L 191241108   439,327  5,616,561  SH          SOLE              5,616,561
+COSTCO WHSL CORP NEW      COM            22160K105   395,195  6,128,000  SH          SOLE              6,128,000
+CROWN CASTLE INTL CORP    COM            228227104   235,448  5,332,900  SH          SOLE              5,332,900
+CSX CORP                  COM            126408103    88,512  1,600,000  SH          SOLE              1,600,000
+DEVON ENERGY CORP NEW     COM            25179M103    26,382    407,500  SH          SOLE                407,500
+EASTMAN KODAK CO          COM            277461109    24,150  5,750,000  SH          SOLE              5,750,000
+ECOLAB INC                COM            278865100   140,368  2,766,425  SH          SOLE              2,766,425
+EXPEDIA INC DEL           COM            30212P105    42,345  1,500,000  SH          SOLE              1,500,000
+EXPEDITORS INTL WASH INC  COM            302130109    76,187  1,648,000  SH          SOLE              1,648,000
+EXXON MOBIL CORP          COM            30231G102   441,419  7,143,858  SH          SOLE              7,143,858
+FEDEX CORP                COM            31428X106   215,887  2,524,999  SH          SOLE              2,524,999
+GOLDMAN SACHS GROUP INC   COM            38141G104    72,290    500,000  SH          SOLE                500,000
+GREATER CHINA FD INC      COM            39167B102     2,127    166,414  SH          SOLE                166,414
+GRUPO TELEVISA SA DE CV   SP ADR REP ORD 40049J206   295,268 15,606,150  SH          SOLE             15,606,150
+IAC INTERACTIVECORP       COM PAR $.001  44919P508    14,054    535,000  SH          SOLE                535,000
+M & T BK CORP             COM            55261F104    61,357    749,998  SH          SOLE                749,998
+MCDONALDS CORP            COM            580135101   698,345  9,372,500  SH          SOLE              9,372,500
+MONSANTO CO NEW           COM            61166W101    23,965    500,000  SH          SOLE                500,000
+RANGE RES CORP            COM            75281A109    21,925    575,000  SH          SOLE                575,000
+REPUBLIC SVCS INC         COM            760759100    41,162  1,350,000  SH          SOLE              1,350,000
+WAL MART STORES INC       COM            931142103   495,221  9,253,000  SH          SOLE              9,253,000
+WASTE MGMT INC DEL        COM            94106L109   630,227 17,633,672  SH          SOLE             17,633,672
+</Table>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

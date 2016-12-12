@@ -1,0 +1,39 @@
+
+                                                                                                              VOTING AUTHORITY
+                                                          VALUE     SHRS OR   SH/ PUT/ INVESTMENT  OTHER   ----------------------
+NAME OF ISSUER                TITLE OF CLASS    CUSIP    (x$1000)  PRN AMOUNT PRN CALL DISCRETION MANAGERS    SOLE    SHARED NONE
+- ---------------------------------------------------------------------------------------------------------------------------------
+<S>                          <C>              <C>        <C>       <C>        <C> <C>     <C>     <C>      <C>        <C>    <C>
+AMERICA MOVIL SAB DE CV      SPON ADR L SHS   02364W105    114,679  1,999,984 SH          SOLE              1,999,984
+AUTONATION INC               COM              05329W102    304,337 10,792,100 SH          SOLE             10,792,100
+BERSHIRE HATHAWAY INC DEL    CL B NEW         084670702  7,158,594 89,359,555 SH          SOLE             89,359,555
+BP PLC                       SPONSORED ADR    055622104    315,065  7,133,000 SH          SOLE              7,133,000
+CANADIAN NATL RY CO          COM              136375102    569,212  8,563,437 SH          SOLE              8,563,437
+CATERPILLAR INC DEL          COM              149123101    898,237  9,590,400 SH          SOLE              9,590,400
+COCA COLA CO                 COM              191216100    768,325 11,682,000 SH          SOLE             11,682,000
+COCA COLA FEMSA S A B DE C V SPON ADR REP L   191241108    462,973  5,616,561 SH          SOLE              5,616,561
+COSTCO WHSL CORP NEW         COM              22160K105    442,503  6,128,000 SH          SOLE              6,128,000
+CROWN CASTLE INTL CORP       COM              228227104    233,741  5,332,900 SH          SOLE              5,332,900
+CSX CORP                     COM              126408103    103,376  1,600,000 SH          SOLE              1,600,000
+EASTMAN KODAK CO             COM              277461109     30,820  5,750,000 SH          SOLE              5,750,000
+ECOLAB INC                   COM              278865100    215,113  4,266,425 SH          SOLE              4,266,425
+EXPEDIA INC DEL              COM              30212P105     37,635  1,500,000 SH          SOLE              1,500,000
+EXPEDITORS INTL WASH INC     COM              302130109    100,901  1,848,000 SH          SOLE              1,848,000
+EXXON MOBIL CORP             COM              30231G102    558,919  7,643,858 SH          SOLE              7,643,858
+FEDEX CORP                   COM              31428X106    281,355  3,024,999 SH          SOLE              3,024,999
+FOMENTO ECONOMICO MEXICANO S SPON ADR UNITS   344419106     12,191    218,000 SH          SOLE                218,000
+GREATER CHINA FD INC         COM              39167B102      2,188    166,414 SH          SOLE                166,414
+GRUPO TELEVISA SA DE CV      SP ADR REP ORD   40049J206    424,709 16,379,050 SH          SOLE             16,379,050
+IAC INTERACTIVECORP          COM PAR $.001    44919P508     15,355    535,000 SH          SOLE                535,000
+M & T BK CORP                COM              55261F104     43,525    499,998 SH          SOLE                499,998
+MCDONALDS CORP               COM              580135101    757,813  9,872,500 SH          SOLE              9,872,500
+MONSANTO CO NEW              COM              61166W101     34,820    500,000 SH          SOLE                500,000
+REPUBLIC SVCS INC            COM              760759100     40,311  1,350,000 SH          SOLE              1,350,000
+SEMGROUP CORP                CL A             81663A105        697     25,668 SH          SOLE                 25,668
+WAL MART STORES INC          COM              931142103    525,979  9,753,000 SH          SOLE              9,753,000
+WASTE MGMT INC DEL           COM              94106L109    687,023 18,633,672 SH          SOLE             18,633,672
+</Table>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

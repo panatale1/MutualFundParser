@@ -1,0 +1,51 @@
+
+        COLUMN 1              COLUMN 2       COLUMN 3 COLUMN 4         COLUMN 5          COLUMN 6  COLUMN 7        COLUMN 8
+- ------------------------- ----------------  --------- --------- ---------------------- ----------- -------- -----------------------
+                                                       VALUE      SHRS OR    SH/  PUT/  INVESTMENT  OTHER
+     NAME OF ISSUER        TITLE OF CLASS     CUSIP   (x$1000)   PRN AMOUNT  PRN  CALL  DISCRETION MANAGERS   SOLE     SHARED  NONE
+- ------------------------- ----------------  --------- --------- ----------- ----- ---- ----------- -------- ---------- ------- ----
+<S>                          <C>            <C>       <C>       <C>         <C>   <C>        <C>   <C>      <C>        <C>     <C>
+AMERICA MOVIL SAB DE CV      SPON ADR L SHS 02364W105    38,719    999,984  SH               SOLE              999,984
+AUTONATION INC               COM            05329W102   178,568 10,292,100  SH               SOLE           10,292,100
+BANK FLA CORP NAPLES         COM            062128103       957    303,900  SH               SOLE              303,900
+BERKSHIRE HATHAWAY INC DEL   CL B           084670207 3,623,282  1,251,250  SH               SOLE            1,251,250
+BP PLC                       SPONSORED ADR  055622104   220,901  4,633,000  SH               SOLE            4,633,000
+CABOT OIL & GAS CORP         COM            127097103    23,763    775,550  SH               SOLE              775,550
+CANADIAN NATL RY CO          COM            136375102   360,849  8,399,653  SH               SOLE            8,399,653
+CATERPILLAR INC DEL          COM            149123101   250,774  7,590,000  SH               SOLE            7,590,000
+COCA COLA CO                 COM            191216100   272,679  5,682,000  SH               SOLE            5,682,000
+COCA COLA ENTERPRISES INC    COM            191219104    16,650  1,000,000  SH               SOLE            1,000,000
+COCA COLA FEMSA S A B DE C V SPON ADR REP L 191241108   182,990  4,561,072  SH               SOLE            4,561,072
+COSTCO WHSL CORP NEW         COM            22160K105   280,540  6,128,000  SH               SOLE            6,128,000
+CROCS INC                    COM            227046109    10,200  3,000,000  SH               SOLE            3,000,000
+CROWN CASTLE INTL CORP       COM            228227104   128,096  5,332,900  SH               SOLE            5,332,900
+CSX CORP                     COM            126408103    51,945  1,500,000  SH               SOLE            1,500,000
+DAIMLER AG                   REG SHS        D1668R123    31,257    861,800  SH               SOLE              861,800
+DEVON ENERGY CORP NEW        COM            25179M103    22,209    407,500  SH               SOLE              407,500
+DICKS SPORTING GOODS INC     COM            253393102    22,360  1,300,000  SH               SOLE            1,300,000
+EASTMAN KODAK CO             COM            277461109    17,908  6,050,000  SH               SOLE            6,050,000
+EXPEDITORS INTL WASH INC     COM            302130109    54,944  1,648,000  SH               SOLE            1,648,000
+EXXON MOBIL CORP             COM            30231G102   299,564  4,285,000  SH               SOLE            4,285,000
+FEDEX CORP                   COM            31428X106    84,821  1,525,000  SH               SOLE            1,525,000
+GREATER CHINA FD INC         COM            39167B102     1,856    166,414  SH               SOLE              166,414
+GRUPO TELEVISA SA DE CV      SP ADR REP ORD 40049J206   147,744  8,690,800  SH               SOLE            8,690,800
+HOME DEPOT INC               COM            437076102    33,129  1,402,000  SH               SOLE            1,402,000
+IAC INTERACTIVECORP          COM PAR $.001  44919P508     8,587    535,000  SH               SOLE              535,000
+M & T BK CORP                COM            55261F104    50,930    999,998  SH               SOLE              999,998
+MCDONALDS CORP               COM            580135101   394,813  6,867,500  SH               SOLE            6,867,500
+PEABODY ENERGY CORP          COM            704549104    15,080    500,000  SH               SOLE              500,000
+PROGRESSIVE CORP OHIO        COM            743315103    30,220  2,000,000  SH               SOLE            2,000,000
+RANGE RES CORP               COM            75281A109    23,811    575,000  SH               SOLE              575,000
+REPUBLIC SVCS INC            COM            760759100    32,954  1,350,000  SH               SOLE            1,350,000
+SEATTLE GENETICS INC         COM            812578102    29,365  3,021,088  SH               SOLE            3,021,088
+TRACTOR SUPPLY CO            COM            892356106    41,320  1,000,000  SH               SOLE            1,000,000
+VIACOM INC NEW               CL B           92553P201    11,350    500,000  SH               SOLE              500,000
+WAL MART STORES INC          COM            931142103   230,235  4,753,000  SH               SOLE            4,753,000
+WASTE MGMT INC DEL           COM            94106L109   220,189  7,819,200  SH               SOLE            7,819,200
+XTO ENERGY INC               COM            98385X106    46,149  1,210,000  SH               SOLE            1,210,000
+</Table>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----
