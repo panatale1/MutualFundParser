@@ -95,7 +95,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                             for i in range((remaining / 8) - 1):
                                 fields['shrs_or_prn_amt'] += '\t'
                     output_file.write(
-                        '{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}{7}\t{8}{9}\t{10}\t{11}\n'.format(
+                        '{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}{7}\t\t{8}{9}\t{10}\t{11}\n'.format(
                             fields['name'], fields['title'], fields['cusip'], fields['value'],
                             fields['shrs_or_prn_amt'], fields['sh_prn'], fields['put_call'],
                             fields['discretion'], fields['other_managers'], fields['sole'],
