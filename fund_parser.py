@@ -33,17 +33,18 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
     for i in range(len(file_urls)):
         file_urls[i] = file_urls[i].replace('-index.htm', '.txt')
     # Retrieve files and parse
-    top_headers = '\t\t\t\t\t\t\t\t\tValue\t\tSHRS OR\t\tSH/\tPUT/\tINVESTMENT\tOTHER\t\tVOTING AUTHORITY\n'
-    bottom_headers = ('NAME OF ISSUER\t\t\tTITLE OF CLASS\t\tCUSIP\t\t(x$1000)\tPRN AMOUNT\tPRN\tCALL'
-                      '\tDISCRETION\tMANAGERS\tSOLE\t\tSHARED\t\tNONE\n')
+    top_headers = ('\t\t\t\t\t\t\t\t\tValue\t\tSHRS OR\t\tSH/\tPUT/\tINVESTMENT\tOTHER\t\t'
+                   'VOTING AUTHORITY\n')
+    bottom_headers = ('NAME OF ISSUER\t\t\tTITLE OF CLASS\t\tCUSIP\t\t(x$1000)\tPRN AMOUNT\tPRN\t'
+                      'CALL\tDISCRETION\tMANAGERS\tSOLE\t\tSHARED\t\tNONE\n')
     for url in file_urls:
         file_content = requests.get('https://www.sec.gov{0}'.format(url)).content
         file_date = file_content.split('<ACCEPTANCE-DATETIME>')[1][:8]
         with open('{0}-{1}.txt'.format(cik_or_ticker, file_date), 'w') as output_file:
-            output_file.write(top_headers)
-            output_file.write(bottom_headers)
             # Two cases here: files with XML and files without XML
             if '<XML>' in file_content:
+                output_file.write(top_headers)
+                output_file.write(bottom_headers)
                 file_content = file_content.split('</SEC-HEADER>')[1]
                 xml_soup = BeautifulSoup(file_content, features='xml')
                 other_managers = xml_soup.findAll('otherIncludedManagersCount')[0].text
@@ -120,3 +121,6 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                     )
             else:
                 file_content = file_content.split('<PAGE>')[-1]
+                file_content = file_content.split('<Caption>')[1]
+                file_content = file_content.split('</TABLE>')[0]
+                output_file.write(file_content)
