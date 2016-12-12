@@ -32,7 +32,3 @@ WASTE MGMT INC               COM              94106L109    628,700   18,633,672 
 WILLIS GROUP HOLDINGS PUBLIC SHS              G96666105     20,209      602,700 SH                    SOLE      602,700
                                                         ---------- ------------
                                                         16,788,719  240,235,774
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>

@@ -34,7 +34,3 @@ TOYOTA MOTOR CORP         SP ADR REP2COM   892331307     12,036      153,300 SH 
 WAL-MART STORES INC       COM              931142103    782,501   10,603,000 SH          SOLE              10,603,000
 WASTE MGMT INC DEL        COM              94106L109    597,768   18,633,672 SH          SOLE              18,633,672
 
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>

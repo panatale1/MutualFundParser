@@ -32,7 +32,3 @@ SEMGROUP CORP                CL A           81663A105       669     25,668  SH  
 TRIPADVISOR INC              COM            896945201    15,094    598,737  SH         SOLE                598,737
 WAL MART STORES INC          COM            931142103   582,839  9,753,000  SH         SOLE              9,753,000
 WASTE MGMT INC DEL           COM            94106L109   609,507 18,633,672  SH         SOLE             18,633,672
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>

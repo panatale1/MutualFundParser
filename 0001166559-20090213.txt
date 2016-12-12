@@ -48,8 +48,3 @@ VIACOM INC NEW               CL B           92553P201     9,530    500,000 SH   
 WAL MART STORES INC          COM            931142103   266,453  4,753,000 SH         OTHER       1           4,753,000
 WASTE MGMT INC DEL           COM            94106L109   259,128  7,819,200 SH         OTHER       1           7,819,200
 WYETH                        COM            983024100   140,040  3,733,400 SH         OTHER       1           3,733,400
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>
------END PRIVACY-ENHANCED MESSAGE-----

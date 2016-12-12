@@ -29,7 +29,3 @@ REPUBLIC SVCS INC            COM              760759100    35,721  1,350,000  SH
 TOYOTA MOTOR CORP            SP ADR REP2COM   892331307    12,338    153,300  SH         SOLE                153,300
 WAL MART STORES INC          COM              931142103   739,241 10,603,000  SH         SOLE             10,603,000
 WASTE MGMT INC DEL           COM              94106L109   622,365 18,633,672  SH         SOLE             18,633,672
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>

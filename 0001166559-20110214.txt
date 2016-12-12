@@ -32,8 +32,3 @@ REPUBLIC SVCS INC            COM              760759100     40,311  1,350,000 SH
 SEMGROUP CORP                CL A             81663A105        697     25,668 SH          SOLE                 25,668
 WAL MART STORES INC          COM              931142103    525,979  9,753,000 SH          SOLE              9,753,000
 WASTE MGMT INC DEL           COM              94106L109    687,023 18,633,672 SH          SOLE             18,633,672
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>
------END PRIVACY-ENHANCED MESSAGE-----

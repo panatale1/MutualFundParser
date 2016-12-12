@@ -34,8 +34,3 @@ REPUBLIC SVCS INC            COM            760759100     39,177   1,350,000 SH 
 WAL MART STORES INC          COM            931142103    514,467   9,253,000 SH           SOLE             9,253,000
 WASTE MGMT INC DEL           COM            94106L109    541,115  15,716,367 SH           SOLE            15,716,367
 XTO ENERGY INC               COM            98385X106     57,087   1,210,000 SH           SOLE             1,210,000
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>
------END PRIVACY-ENHANCED MESSAGE-----

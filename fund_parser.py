@@ -121,6 +121,12 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                     )
             else:
                 file_content = file_content.split('<PAGE>')[-1]
-                file_content = file_content.split('<Caption>')[1]
-                file_content = file_content.split('</TABLE>')[0]
+                if '<Caption>' in file_content:
+                    file_content = file_content.split('<Caption>')[1]
+                elif '<CAPTION>' in file_content:
+                    file_content = file_content.split('<CAPTION>')[1]
+                if '</TABLE>' in file_content:
+                    file_content = file_content.split('</TABLE>')[0]
+                elif '</Table>' in file_content:
+                    file_content = file_content.split('</Table>')[0]
                 output_file.write(file_content)

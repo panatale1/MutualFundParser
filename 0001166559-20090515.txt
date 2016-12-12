@@ -65,8 +65,3 @@ WAL MART STORES INC                   COM       931142103   247,631  4,753,000 S
 WASTE MGMT INC DEL                    COM       94106L109   200,172  7,819,200 SH          OTHER      1           7,819,200
 WYETH                                 COM       983024100   160,686  3,733,400 SH          OTHER      1           3,733,400
 XENOPORT INC                          COM       98411C100     2,517    130,000 SH          OTHER      1             130,000
-</Table>
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>
------END PRIVACY-ENHANCED MESSAGE-----

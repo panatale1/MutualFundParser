@@ -43,9 +43,3 @@ VIACOM INC NEW               CL B           92553P201    11,350    500,000  SH  
 WAL MART STORES INC          COM            931142103   230,235  4,753,000  SH               SOLE            4,753,000
 WASTE MGMT INC DEL           COM            94106L109   220,189  7,819,200  SH               SOLE            7,819,200
 XTO ENERGY INC               COM            98385X106    46,149  1,210,000  SH               SOLE            1,210,000
-</Table>
-
-</TEXT>
-</DOCUMENT>
-</SEC-DOCUMENT>
------END PRIVACY-ENHANCED MESSAGE-----
