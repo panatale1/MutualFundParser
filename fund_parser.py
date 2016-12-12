@@ -33,7 +33,7 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
     for i in range(len(file_urls)):
         file_urls[i] = file_urls[i].replace('-index.htm', '.txt')
     # Retrieve files and parse
-    top_headers = '\t\t\t\t\t\t\tValue\t\tSHRS OR\t\tSH/\tPUT/\tINVESTMENT\tOTHER\t\tVOTING AUTHORITY\n'
+    top_headers = '\t\t\t\t\t\t\t\t\tValue\t\tSHRS OR\t\tSH/\tPUT/\tINVESTMENT\tOTHER\t\tVOTING AUTHORITY\n'
     bottom_headers = ('NAME OF ISSUER\t\t\tTITLE OF CLASS\t\tCUSIP\t\t(x$1000)\tPRN AMOUNT\tPRN\tCALL'
                       '\tDISCRETION\tMANAGERS\tSOLE\tSHARED\tNONE\n')
     for url in file_urls:
