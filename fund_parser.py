@@ -65,6 +65,11 @@ def mutual_fund_parser(cik_or_ticker, get_all=False):
                         fields['other_managers'] = '\t'
                     else:
                         fields['other_managers'] = item.otherManagers.text + '\t'
+                    if len(fields['name']) < 32:
+                        remaining = 32 - len(fields['name'])
+                        if remaining / 8 > 0:
+                            for i in range(remaining / 8):
+                                fields['name'] += '\t'
                     output_file.write(
                         '{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}{7}\t{8}{9}\t{10}\t{11}\n'.format(
                             fields['name'], fields['title'], fields['cusip'], fields['value'],
